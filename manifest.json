@@ -21,7 +21,7 @@
       ],
       "demo_modes": ["map", "builder", "workflows", "forms"],
       "source": {
-        "name": "Natural Earth — Populated Places (10m)",
+        "name": "Natural Earth — Populated Places (10m); elevation joined from GeoNames cities15000",
         "url": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-populated-places/",
         "license": "CC0-1.0",
         "fetched_at": "2026-04-14"
