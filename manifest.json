@@ -1,5 +1,31 @@
 {
   "version": 1,
   "generated_at": "2026-04-14",
-  "datasets": []
+  "datasets": [
+    {
+      "id": "world-cities-top-200",
+      "title": "World Cities (Top 200 by Population)",
+      "description": "The 200 largest cities globally with population, country, timezone, and elevation.",
+      "category": "general",
+      "path": "datasets/general/world-cities-top-200.geojson",
+      "url": "https://cdn.jsdelivr.net/gh/AndreEgeli/public-data-sources@main/datasets/general/world-cities-top-200.geojson",
+      "geometry_type": "Point",
+      "feature_count": 200,
+      "bbox": [-123.12, -37.82, 151.21, 59.94],
+      "columns": [
+        { "name": "name", "type": "string" },
+        { "name": "country", "type": "string" },
+        { "name": "population", "type": "number" },
+        { "name": "timezone", "type": "string" },
+        { "name": "elevation", "type": "number" }
+      ],
+      "demo_modes": ["map", "builder", "workflows", "forms"],
+      "source": {
+        "name": "Natural Earth — Populated Places (10m)",
+        "url": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-populated-places/",
+        "license": "CC0-1.0",
+        "fetched_at": "2026-04-14"
+      }
+    }
+  ]
 }
