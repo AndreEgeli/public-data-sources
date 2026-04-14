@@ -1,0 +1,12 @@
+# Meta-documentation (specs, plans) — not part of the public repo
+docs/
+
+# Scratch space for dataset curation
+tmp/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
