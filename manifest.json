@@ -26,6 +26,32 @@
         "license": "CC0-1.0",
         "fetched_at": "2026-04-14"
       }
+    },
+    {
+      "id": "wind-turbines-denmark",
+      "title": "Wind Turbines (Denmark)",
+      "description": "Active and decommissioned wind turbines across Denmark with capacity, height, operator, and year built.",
+      "category": "renewable-energy",
+      "path": "datasets/renewable-energy/wind-turbines-denmark.geojson",
+      "url": "https://cdn.jsdelivr.net/gh/AndreEgeli/public-data-sources@main/datasets/renewable-energy/wind-turbines-denmark.geojson",
+      "geometry_type": "Point",
+      "feature_count": 9019,
+      "bbox": [7.55, 54.53, 15.14, 57.74],
+      "columns": [
+        { "name": "name", "type": "string" },
+        { "name": "capacity_mw", "type": "number" },
+        { "name": "height_m", "type": "number" },
+        { "name": "status", "type": "string" },
+        { "name": "operator", "type": "string" },
+        { "name": "year_built", "type": "number" }
+      ],
+      "demo_modes": ["map", "builder", "workflows", "forms"],
+      "source": {
+        "name": "Energistyrelsen — Master Data Register of Wind Turbines",
+        "url": "https://ens.dk/en/our-services/statistics-data-key-figures-and-energy-maps/register-wind-turbines",
+        "license": "CC-BY-4.0",
+        "fetched_at": "2026-04-14"
+      }
     }
   ]
 }
