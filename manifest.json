@@ -78,6 +78,31 @@
         "license": "ODbL-1.0",
         "fetched_at": "2026-04-14"
       }
+    },
+    {
+      "id": "bike-routes-oslo",
+      "title": "Bike Routes (Oslo)",
+      "description": "Cycle infrastructure in central Oslo with surface, width, and lighting attributes.",
+      "category": "transportation",
+      "path": "datasets/transportation/bike-routes-oslo.geojson",
+      "url": "https://cdn.jsdelivr.net/gh/AndreEgeli/public-data-sources@main/datasets/transportation/bike-routes-oslo.geojson",
+      "geometry_type": "LineString",
+      "feature_count": 1521,
+      "bbox": [10.6558, 59.8842, 10.8146, 59.9553],
+      "columns": [
+        { "name": "route_name", "type": "string" },
+        { "name": "length_km", "type": "number" },
+        { "name": "surface", "type": "string" },
+        { "name": "width_m", "type": "number" },
+        { "name": "lit", "type": "boolean" }
+      ],
+      "demo_modes": ["map", "builder", "workflows", "forms"],
+      "source": {
+        "name": "© OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "fetched_at": "2026-04-14"
+      }
     }
   ]
 }
