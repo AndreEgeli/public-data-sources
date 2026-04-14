@@ -129,6 +129,31 @@
         "license": "ODbL-1.0",
         "fetched_at": "2026-04-14"
       }
+    },
+    {
+      "id": "field-boundaries",
+      "title": "Agricultural Field Boundaries (Synthetic)",
+      "description": "80 synthetic agricultural fields in southern Jylland with crop type, area, irrigation status, yield, and farmer ID.",
+      "category": "agriculture",
+      "path": "datasets/agriculture/field-boundaries.geojson",
+      "url": "https://cdn.jsdelivr.net/gh/AndreEgeli/public-data-sources@main/datasets/agriculture/field-boundaries.geojson",
+      "geometry_type": "Polygon",
+      "feature_count": 80,
+      "bbox": [8.8167, 55.1198, 9.3839, 55.4767],
+      "columns": [
+        { "name": "crop_type", "type": "string" },
+        { "name": "area_ha", "type": "number" },
+        { "name": "irrigation", "type": "boolean" },
+        { "name": "yield_tons", "type": "number" },
+        { "name": "farmer_id", "type": "string" }
+      ],
+      "demo_modes": ["map", "builder", "workflows", "forms"],
+      "source": {
+        "name": "Synthetic (generated with fixed seed for this repo)",
+        "url": "https://github.com/AndreEgeli/public-data-sources",
+        "license": "CC0-1.0",
+        "fetched_at": "2026-04-14"
+      }
     }
   ]
 }
