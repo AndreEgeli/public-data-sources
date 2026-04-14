@@ -104,5 +104,31 @@
         "fetched_at": "2026-04-14"
       }
     }
+  ,
+    {
+      "id": "protected-areas-nordic",
+      "title": "Protected Areas (Nordic Countries)",
+      "description": "The 250 largest protected areas across Denmark, Sweden, Norway, Finland, and Iceland from OpenStreetMap, with IUCN category (where tagged), area, designated year, and country.",
+      "category": "environmental",
+      "path": "datasets/environmental/protected-areas-nordic.geojson",
+      "url": "https://cdn.jsdelivr.net/gh/AndreEgeli/public-data-sources@main/datasets/environmental/protected-areas-nordic.geojson",
+      "geometry_type": "Polygon",
+      "feature_count": 250,
+      "bbox": [-21.83, 54.47, 31.25, 70.81],
+      "columns": [
+        { "name": "name", "type": "string" },
+        { "name": "iucn_category", "type": "string" },
+        { "name": "area_km2", "type": "number" },
+        { "name": "designated_year", "type": "number" },
+        { "name": "country", "type": "string" }
+      ],
+      "demo_modes": ["map", "builder", "workflows", "forms"],
+      "source": {
+        "name": "© OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "fetched_at": "2026-04-14"
+      }
+    }
   ]
 }
