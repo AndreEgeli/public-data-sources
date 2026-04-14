@@ -52,6 +52,32 @@
         "license": "CC-BY-4.0",
         "fetched_at": "2026-04-14"
       }
+    },
+    {
+      "id": "building-footprints-sample",
+      "title": "Building Footprints (Central Oslo Sample)",
+      "description": "Building polygons from a ~500m square of central Oslo with use type, floors, year built, and area.",
+      "category": "urban-planning",
+      "path": "datasets/urban-planning/building-footprints-sample.geojson",
+      "url": "https://cdn.jsdelivr.net/gh/AndreEgeli/public-data-sources@main/datasets/urban-planning/building-footprints-sample.geojson",
+      "geometry_type": "Polygon",
+      "feature_count": 130,
+      "bbox": [10.7346, 59.9117, 10.7431, 59.9166],
+      "columns": [
+        { "name": "address", "type": "string" },
+        { "name": "use_type", "type": "string" },
+        { "name": "floors", "type": "number" },
+        { "name": "year_built", "type": "number" },
+        { "name": "area_sqm", "type": "number" },
+        { "name": "zone", "type": "string" }
+      ],
+      "demo_modes": ["map", "builder", "workflows", "forms"],
+      "source": {
+        "name": "© OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "fetched_at": "2026-04-14"
+      }
     }
   ]
 }
