@@ -11,15 +11,48 @@
       "url": "https://cdn.jsdelivr.net/gh/AndreEgeli/public-data-sources@main/datasets/general/world-cities-top-200.geojson",
       "geometry_type": "Point",
       "feature_count": 200,
-      "bbox": [-123.12, -37.82, 151.21, 59.94],
-      "columns": [
-        { "name": "name", "type": "string" },
-        { "name": "country", "type": "string" },
-        { "name": "population", "type": "number" },
-        { "name": "timezone", "type": "string" },
-        { "name": "elevation", "type": "number" }
+      "bbox": [
+        -123.12,
+        -37.82,
+        151.21,
+        59.94
       ],
-      "demo_modes": ["map", "builder", "workflows", "forms"],
+      "columns": [
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "country",
+          "type": "string"
+        },
+        {
+          "name": "population",
+          "type": "number"
+        },
+        {
+          "name": "timezone",
+          "type": "string"
+        },
+        {
+          "name": "elevation",
+          "type": "number"
+        }
+      ],
+      "demo_modes": [
+        "map",
+        "builder",
+        "workflows",
+        "forms"
+      ],
+      "industries": [
+        "energy",
+        "environment",
+        "government",
+        "real-estate",
+        "tourism",
+        "other"
+      ],
       "source": {
         "name": "Natural Earth — Populated Places (10m); elevation joined from GeoNames cities15000",
         "url": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-populated-places/",
@@ -36,16 +69,47 @@
       "url": "https://cdn.jsdelivr.net/gh/AndreEgeli/public-data-sources@main/datasets/renewable-energy/wind-turbines-denmark.geojson",
       "geometry_type": "Point",
       "feature_count": 9019,
-      "bbox": [7.55, 54.53, 15.14, 57.74],
-      "columns": [
-        { "name": "name", "type": "string" },
-        { "name": "capacity_mw", "type": "number" },
-        { "name": "height_m", "type": "number" },
-        { "name": "status", "type": "string" },
-        { "name": "operator", "type": "string" },
-        { "name": "year_built", "type": "number" }
+      "bbox": [
+        7.55,
+        54.53,
+        15.14,
+        57.74
       ],
-      "demo_modes": ["map", "builder", "workflows", "forms"],
+      "columns": [
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "capacity_mw",
+          "type": "number"
+        },
+        {
+          "name": "height_m",
+          "type": "number"
+        },
+        {
+          "name": "status",
+          "type": "string"
+        },
+        {
+          "name": "operator",
+          "type": "string"
+        },
+        {
+          "name": "year_built",
+          "type": "number"
+        }
+      ],
+      "demo_modes": [
+        "map",
+        "builder",
+        "workflows",
+        "forms"
+      ],
+      "industries": [
+        "energy"
+      ],
       "source": {
         "name": "Energistyrelsen — Master Data Register of Wind Turbines",
         "url": "https://ens.dk/en/our-services/statistics-data-key-figures-and-energy-maps/register-wind-turbines",
@@ -62,16 +126,48 @@
       "url": "https://cdn.jsdelivr.net/gh/AndreEgeli/public-data-sources@main/datasets/urban-planning/building-footprints-sample.geojson",
       "geometry_type": "Polygon",
       "feature_count": 130,
-      "bbox": [10.7346, 59.9117, 10.7431, 59.9166],
-      "columns": [
-        { "name": "address", "type": "string" },
-        { "name": "use_type", "type": "string" },
-        { "name": "floors", "type": "number" },
-        { "name": "year_built", "type": "number" },
-        { "name": "area_sqm", "type": "number" },
-        { "name": "zone", "type": "string" }
+      "bbox": [
+        10.7346,
+        59.9117,
+        10.7431,
+        59.9166
       ],
-      "demo_modes": ["map", "builder", "workflows", "forms"],
+      "columns": [
+        {
+          "name": "address",
+          "type": "string"
+        },
+        {
+          "name": "use_type",
+          "type": "string"
+        },
+        {
+          "name": "floors",
+          "type": "number"
+        },
+        {
+          "name": "year_built",
+          "type": "number"
+        },
+        {
+          "name": "area_sqm",
+          "type": "number"
+        },
+        {
+          "name": "zone",
+          "type": "string"
+        }
+      ],
+      "demo_modes": [
+        "map",
+        "builder",
+        "workflows",
+        "forms"
+      ],
+      "industries": [
+        "government",
+        "real-estate"
+      ],
       "source": {
         "name": "© OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/copyright",
@@ -88,23 +184,51 @@
       "url": "https://cdn.jsdelivr.net/gh/AndreEgeli/public-data-sources@main/datasets/transportation/bike-routes-oslo.geojson",
       "geometry_type": "LineString",
       "feature_count": 1521,
-      "bbox": [10.6558, 59.8842, 10.8146, 59.9553],
-      "columns": [
-        { "name": "route_name", "type": "string" },
-        { "name": "length_km", "type": "number" },
-        { "name": "surface", "type": "string" },
-        { "name": "width_m", "type": "number" },
-        { "name": "lit", "type": "boolean" }
+      "bbox": [
+        10.6558,
+        59.8842,
+        10.8146,
+        59.9553
       ],
-      "demo_modes": ["map", "builder", "workflows", "forms"],
+      "columns": [
+        {
+          "name": "route_name",
+          "type": "string"
+        },
+        {
+          "name": "length_km",
+          "type": "number"
+        },
+        {
+          "name": "surface",
+          "type": "string"
+        },
+        {
+          "name": "width_m",
+          "type": "number"
+        },
+        {
+          "name": "lit",
+          "type": "boolean"
+        }
+      ],
+      "demo_modes": [
+        "map",
+        "builder",
+        "workflows",
+        "forms"
+      ],
+      "industries": [
+        "government",
+        "tourism"
+      ],
       "source": {
         "name": "© OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/copyright",
         "license": "ODbL-1.0",
         "fetched_at": "2026-04-14"
       }
-    }
-  ,
+    },
     {
       "id": "protected-areas-nordic",
       "title": "Protected Areas (Nordic Countries)",
@@ -114,15 +238,45 @@
       "url": "https://cdn.jsdelivr.net/gh/AndreEgeli/public-data-sources@main/datasets/environmental/protected-areas-nordic.geojson",
       "geometry_type": "Polygon",
       "feature_count": 250,
-      "bbox": [-21.83, 54.47, 31.25, 70.81],
-      "columns": [
-        { "name": "name", "type": "string" },
-        { "name": "iucn_category", "type": "string" },
-        { "name": "area_km2", "type": "number" },
-        { "name": "designated_year", "type": "number" },
-        { "name": "country", "type": "string" }
+      "bbox": [
+        -21.83,
+        54.47,
+        31.25,
+        70.81
       ],
-      "demo_modes": ["map", "builder", "workflows", "forms"],
+      "columns": [
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "iucn_category",
+          "type": "string"
+        },
+        {
+          "name": "area_km2",
+          "type": "number"
+        },
+        {
+          "name": "designated_year",
+          "type": "number"
+        },
+        {
+          "name": "country",
+          "type": "string"
+        }
+      ],
+      "demo_modes": [
+        "map",
+        "builder",
+        "workflows",
+        "forms"
+      ],
+      "industries": [
+        "environment",
+        "government",
+        "tourism"
+      ],
       "source": {
         "name": "© OpenStreetMap contributors",
         "url": "https://www.openstreetmap.org/copyright",
@@ -139,23 +293,50 @@
       "url": "https://cdn.jsdelivr.net/gh/AndreEgeli/public-data-sources@main/datasets/agriculture/field-boundaries.geojson",
       "geometry_type": "Polygon",
       "feature_count": 80,
-      "bbox": [8.8167, 55.1198, 9.3839, 55.4767],
-      "columns": [
-        { "name": "crop_type", "type": "string" },
-        { "name": "area_ha", "type": "number" },
-        { "name": "irrigation", "type": "boolean" },
-        { "name": "yield_tons", "type": "number" },
-        { "name": "farmer_id", "type": "string" }
+      "bbox": [
+        8.8167,
+        55.1198,
+        9.3839,
+        55.4767
       ],
-      "demo_modes": ["map", "builder", "workflows", "forms"],
+      "columns": [
+        {
+          "name": "crop_type",
+          "type": "string"
+        },
+        {
+          "name": "area_ha",
+          "type": "number"
+        },
+        {
+          "name": "irrigation",
+          "type": "boolean"
+        },
+        {
+          "name": "yield_tons",
+          "type": "number"
+        },
+        {
+          "name": "farmer_id",
+          "type": "string"
+        }
+      ],
+      "demo_modes": [
+        "map",
+        "builder",
+        "workflows",
+        "forms"
+      ],
+      "industries": [
+        "other"
+      ],
       "source": {
         "name": "Synthetic (generated with fixed seed for this repo)",
         "url": "https://github.com/AndreEgeli/public-data-sources",
         "license": "CC0-1.0",
         "fetched_at": "2026-04-14"
       }
-    }
-  ,
+    },
     {
       "id": "property-parcels",
       "title": "Property Parcels (Downtown Boston)",
@@ -165,15 +346,44 @@
       "url": "https://cdn.jsdelivr.net/gh/AndreEgeli/public-data-sources@main/datasets/real-estate/property-parcels.geojson",
       "geometry_type": "Polygon",
       "feature_count": 500,
-      "bbox": [-71.0644, 42.3499, -71.0507, 42.3628],
-      "columns": [
-        { "name": "address", "type": "string" },
-        { "name": "zone_type", "type": "string" },
-        { "name": "area_sqm", "type": "number" },
-        { "name": "assessed_value", "type": "number" },
-        { "name": "owner_type", "type": "string" }
+      "bbox": [
+        -71.0644,
+        42.3499,
+        -71.0507,
+        42.3628
       ],
-      "demo_modes": ["map", "builder", "workflows", "forms"],
+      "columns": [
+        {
+          "name": "address",
+          "type": "string"
+        },
+        {
+          "name": "zone_type",
+          "type": "string"
+        },
+        {
+          "name": "area_sqm",
+          "type": "number"
+        },
+        {
+          "name": "assessed_value",
+          "type": "number"
+        },
+        {
+          "name": "owner_type",
+          "type": "string"
+        }
+      ],
+      "demo_modes": [
+        "map",
+        "builder",
+        "workflows",
+        "forms"
+      ],
+      "industries": [
+        "real-estate",
+        "government"
+      ],
       "source": {
         "name": "City of Boston — Analyze Boston (Parcels + Property Assessment FY2026)",
         "url": "https://data.boston.gov/dataset/parcels-2025",
