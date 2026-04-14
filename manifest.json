@@ -155,5 +155,30 @@
         "fetched_at": "2026-04-14"
       }
     }
+  ,
+    {
+      "id": "property-parcels",
+      "title": "Property Parcels (Downtown Boston)",
+      "description": "500 property parcels in downtown Boston with parcel ID, polygon type, and geodesic area in sqm.",
+      "category": "real-estate",
+      "path": "datasets/real-estate/property-parcels.geojson",
+      "url": "https://cdn.jsdelivr.net/gh/AndreEgeli/public-data-sources@main/datasets/real-estate/property-parcels.geojson",
+      "geometry_type": "Polygon",
+      "feature_count": 500,
+      "bbox": [-71.0644, 42.3499, -71.0507, 42.3628],
+      "columns": [
+        { "name": "parcel_id", "type": "string" },
+        { "name": "poly_type", "type": "string" },
+        { "name": "area_sqm", "type": "number" },
+        { "name": "source", "type": "string" }
+      ],
+      "demo_modes": ["map", "builder", "workflows", "forms"],
+      "source": {
+        "name": "City of Boston — Analyze Boston (Parcels 2025)",
+        "url": "https://data.boston.gov/dataset/parcels-2025",
+        "license": "Open Data Commons Public Domain (City of Boston open data terms)",
+        "fetched_at": "2026-04-14"
+      }
+    }
   ]
 }
