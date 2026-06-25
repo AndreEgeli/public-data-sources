@@ -36,7 +36,7 @@ Each dataset carries its own license, declared in `manifest.json` under
 | Protected Areas (Nordic Countries) | `protected-areas-nordic` | [© OpenStreetMap contributors](https://www.openstreetmap.org/copyright) | ODbL-1.0 |
 | Agricultural Field Boundaries (Synthetic) | `field-boundaries` | Synthetic — generated procedurally with a fixed seed in this repo | CC0-1.0 |
 | Property Parcels (Downtown Boston) | `property-parcels` | [City of Boston — Analyze Boston (Parcels + Property Assessment FY2026)](https://data.boston.gov/dataset/parcels-2025) | Open Data Commons Public Domain (City of Boston open data terms) |
-| Central Park Squirrel Census (2018) | `central-park-squirrels` | [NYC Open Data — 2018 Central Park Squirrel Census (Squirrel Data)](https://data.cityofnewyork.us/Environment/2018-Central-Park-Squirrel-Census-Squirrel-Data/vfnx-vebw) | NYC Open Data Terms of Use (public domain) |
+| Central Park Squirrel Census (2018) | `central-park-squirrels` | [NYC Open Data — 2018 Central Park Squirrel Census (Squirrel Data)](https://data.cityofnewyork.us/Environment/2018-Central-Park-Squirrel-Census-Squirrel-Data/vfnx-vebw) | NYC Open Data Terms of Use (no restrictions; attribution not required) |
 
 ### OpenStreetMap-derived data
 

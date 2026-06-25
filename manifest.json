@@ -394,7 +394,7 @@
     {
       "id": "central-park-squirrels",
       "title": "Central Park Squirrel Census (2018)",
-      "description": "3,023 squirrel sightings recorded during the 2018 Central Park Squirrel Census, each with shift, date, age, primary fur color, and location (ground vs. above ground).",
+      "description": "3,023 squirrel sightings recorded during the 2018 Central Park Squirrel Census, each with shift, date, age, primary fur color, and location (ground vs. above ground). Curated subset of the NYC Open Data export: 6 selected columns, dates normalized to ISO 8601.",
       "category": "general",
       "path": "datasets/general/central-park-squirrels.geojson",
       "url": "https://cdn.jsdelivr.net/gh/AndreEgeli/public-data-sources@main/datasets/general/central-park-squirrels.geojson",
@@ -446,8 +446,9 @@
       "source": {
         "name": "NYC Open Data — 2018 Central Park Squirrel Census (Squirrel Data)",
         "url": "https://data.cityofnewyork.us/Environment/2018-Central-Park-Squirrel-Census-Squirrel-Data/vfnx-vebw",
-        "license": "NYC Open Data Terms of Use (public domain, no restrictions)",
-        "fetched_at": "2026-06-25"
+        "license": "NYC Open Data Terms of Use — no restrictions on use; attribution not required",
+        "fetched_at": "2026-06-25",
+        "modifications": "Reduced to 6 columns (unique_squirrel_id, shift, date, age, primary_fur_color, location); dates normalized from MMDDYYYY to ISO 8601; empty/'?' values set to null."
       }
     }
   ]
