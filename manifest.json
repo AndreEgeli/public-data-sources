@@ -394,17 +394,17 @@
     {
       "id": "central-park-squirrels",
       "title": "Central Park Squirrel Census (2018)",
-      "description": "3,023 squirrel sightings recorded during the 2018 Central Park Squirrel Census, each with shift, date, age, primary fur color, and location (ground vs. above ground). Curated subset of the NYC Open Data export: 6 selected columns, dates normalized to ISO 8601.",
+      "description": "A 1,000-feature even sample of the 3,023 squirrel sightings recorded during the 2018 Central Park Squirrel Census, each with shift, date, age, primary fur color, and location (ground vs. above ground). Curated subset of the NYC Open Data export: 6 selected columns, dates normalized to ISO 8601.",
       "category": "general",
       "path": "datasets/general/central-park-squirrels.geojson",
       "url": "https://cdn.jsdelivr.net/gh/AndreEgeli/public-data-sources@main/datasets/general/central-park-squirrels.geojson",
       "geometry_type": "Point",
-      "feature_count": 3023,
+      "feature_count": 1000,
       "bbox": [
-        -73.9812,
-        40.7649,
+        -73.9811,
+        40.765,
         -73.9497,
-        40.8001
+        40.8
       ],
       "columns": [
         {
@@ -448,7 +448,7 @@
         "url": "https://data.cityofnewyork.us/Environment/2018-Central-Park-Squirrel-Census-Squirrel-Data/vfnx-vebw",
         "license": "NYC Open Data Terms of Use — no restrictions on use; attribution not required",
         "fetched_at": "2026-06-25",
-        "modifications": "Reduced to 6 columns (unique_squirrel_id, shift, date, age, primary_fur_color, location); dates normalized from MMDDYYYY to ISO 8601; empty/'?' values set to null."
+        "modifications": "Reduced to 6 columns (unique_squirrel_id, shift, date, age, primary_fur_color, location); dates normalized from MMDDYYYY to ISO 8601; empty/'?' values set to null; downsampled from 3,023 to 1,000 features via deterministic evenly-spaced sampling."
       }
     }
   ]
