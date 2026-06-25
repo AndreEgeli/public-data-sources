@@ -390,6 +390,65 @@
         "license": "Open Data Commons Public Domain (City of Boston open data terms)",
         "fetched_at": "2026-04-14"
       }
+    },
+    {
+      "id": "central-park-squirrels",
+      "title": "Central Park Squirrel Census (2018)",
+      "description": "3,023 squirrel sightings recorded during the 2018 Central Park Squirrel Census, each with shift, date, age, primary fur color, and location (ground vs. above ground).",
+      "category": "general",
+      "path": "datasets/general/central-park-squirrels.geojson",
+      "url": "https://cdn.jsdelivr.net/gh/AndreEgeli/public-data-sources@main/datasets/general/central-park-squirrels.geojson",
+      "geometry_type": "Point",
+      "feature_count": 3023,
+      "bbox": [
+        -73.9812,
+        40.7649,
+        -73.9497,
+        40.8001
+      ],
+      "columns": [
+        {
+          "name": "unique_squirrel_id",
+          "type": "string"
+        },
+        {
+          "name": "shift",
+          "type": "string"
+        },
+        {
+          "name": "date",
+          "type": "string"
+        },
+        {
+          "name": "age",
+          "type": "string"
+        },
+        {
+          "name": "primary_fur_color",
+          "type": "string"
+        },
+        {
+          "name": "location",
+          "type": "string"
+        }
+      ],
+      "demo_modes": [
+        "map",
+        "builder",
+        "workflows",
+        "forms"
+      ],
+      "industries": [
+        "environment",
+        "tourism",
+        "government"
+      ],
+      "source": {
+        "name": "NYC Open Data — 2018 Central Park Squirrel Census (Squirrel Data)",
+        "url": "https://data.cityofnewyork.us/Environment/2018-Central-Park-Squirrel-Census-Squirrel-Data/vfnx-vebw",
+        "license": "NYC Open Data Terms of Use (public domain, no restrictions)",
+        "fetched_at": "2026-06-25"
+      }
     }
   ]
 }
